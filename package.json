@@ -1,0 +1,27 @@
+{
+  "name": "coding-exercise",
+  "version": "1.0.0",
+  "description": "moovel coding exercise",
+  "main": "index.js",
+  "repository": "https://bitbucket.org/tssherpa/",
+  "scripts": {
+    "start": "nodemon server.js",
+    "lint": "eslint lib routes test server.js",
+    "test": "mocha test/*.js"
+  },
+  "type": "module",
+  "author": "moovel",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.14.0",
+    "http-errors": "^2.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "eslint": "^3.1.1",
+    "mocha": "^v7.1.0",
+    "supertest": "^6.3.1"
+  }
+}
